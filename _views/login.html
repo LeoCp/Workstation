@@ -1,0 +1,9 @@
+<!--Login-->
+{{usuario}}
+<div class="jumbotron">
+  <h2>Login</h2>
+  <input class="form-control"type="text" name="name" value="" placeholder="Usuario" ng-model="usuario.nome">
+  <input class="form-control"type="text" name="name" value="" placeholder="Senha" ng-model="usuario.senha">
+  <button class="btn btn-primary btn-block" type="button" ng-click="logarUsuario(usuario)" >Entrar</button>
+  <li ng-class="{active: activetab == '/work'}"><a href="#/work">Work</a></li>
+</div>
