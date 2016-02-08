@@ -1,0 +1,11 @@
+body {
+    background: #F9F9F9;
+}
+
+.jumbotron {
+    background: #fff;
+    width: 450px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;;
+}
