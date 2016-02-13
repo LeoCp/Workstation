@@ -9,16 +9,21 @@
     <link rel="stylesheet" href="/public/_css/style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body ng-controller="ctrl">
-    {{usuario}}
+
     <div class="container"><br><br>
       <div class="jumbotron">
-        <h1>Login</h1><br>
+        <h2>Login</h2>
+        <span style="color:red;">{{invalid}}</span>
         <input type="text" class="form-control" placeholder="Usuario" ng-model="usuario.nome"><br>
         <input type="password" class="form-control" placeholder="Senha" ng-model="usuario.senha"><br>
         <div class="text-center">
           <button type="button" class="btn btn-primary" ng-click="verfUsuario()">Entrar</button>
+
         </div>
+
       </div>
+
+
 
   </body>
 </html>
